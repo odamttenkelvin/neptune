@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 
 function NavigationPage() {
   return (
+<div className="d-flex justify-content-center align-items-center min-vh-100">
     <Card style={{ width: '50rem' }} className="mx-auto mt-5">
       <Card.Header className="text-center">Welcome</Card.Header>
 
@@ -43,6 +44,7 @@ function NavigationPage() {
 
       </Row>
     </Card>
+</div>
   );
 }
 

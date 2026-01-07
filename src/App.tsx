@@ -1,8 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import NavigationPage from './components/landingpage';
-import LoginPage from './pages/login';
-import ForgotUsernameEmail from './pages/login-assist/forgot-username-email';
+import NavigationPage from './journey/components/landingpage';
+import LoginPage from './journey/pages/login';
+import ForgotUsernameEmail from './journey/pages/login-assist/forgot-username-email';
 
 function App() {
   return (
